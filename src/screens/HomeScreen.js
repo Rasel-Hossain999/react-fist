@@ -1,11 +1,14 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 import Product from '../components/Product'
 import products from '../products'
 
 const HomeScreen = () => {
   return (
     <>
+      <Header/>
         <h1>Latest Products</h1>
         <Row>
             {products.map((product)=>(
@@ -14,6 +17,7 @@ const HomeScreen = () => {
                 </Col>
             ))}
         </Row>
+        <Footer/>
     </>
   )
 }
