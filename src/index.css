@@ -1,0 +1,15 @@
+main {
+  min-height: 80rem;
+}
+
+/* .navbar-brand{
+  color: white;
+}
+
+.nav-link {
+  color: white;
+} */
+
+.navbar-nav {
+  margin-left: auto;
+}
